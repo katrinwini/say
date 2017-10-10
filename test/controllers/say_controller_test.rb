@@ -1,13 +1,8 @@
 require 'test_helper'
 
 class SayControllerTest < ActionDispatch::IntegrationTest
-  test "should get hello" do
-    get say_hello_url
-    assert_response :success
-  end
-
-  test "should get goodbye" do
-    get say_goodbye_url
+  test "should get filename" do
+    get say_filename_url
     assert_response :success
   end
 
